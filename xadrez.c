@@ -6,17 +6,23 @@
 
 int main() {
    
-    int i;
+    int i; //variável de controle
+    int t = 5;   //Número de casas - Torre
+    int b = 5;   //Número de casas - Bispo
+    int r = 8;   //Número de casas - Rainha
+
+
+
     //Movimento Torre
-    for (i=0; i<5; i++ )
+    for (i=0; i<t; i++ )
         printf("Direita\n");
 
     //Movimento Bispo    
-    for (i=0; i<5; i++)
+    for (i=0; i<b; i++)
         printf("Cima, Direita\n");
     
     //Movimento Rainha  
-    for (i=0; i<8; i++)
+    for (i=0; i<r; i++)
         printf("Esquerda\n");
     
     return 0;
