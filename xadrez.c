@@ -24,6 +24,18 @@ int main() {
     //Movimento Rainha  
     for (i=0; i<r; i++)
         printf("Esquerda\n");
+
+    //Movimento Cavalo
+    i = 0;
+   
+    printf("\n"); // Separando o movimento do cavalo com uma linha em branco
+
+    while (i==0){
+        for (i=0; i<2; i++)
+            printf("Baixo\n");
+        printf("Esquerda\n");
+    }
+    
     
     return 0;
 }
